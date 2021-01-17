@@ -12,6 +12,7 @@ THEME = pathlib.Path(__file__).parent.absolute() / 'themes/bootstrap'
 TIMEZONE = 'America/Los_Angeles'
 
 DEFAULT_LANG = 'en'
+DEFAULT_DATE_FORMAT = '%B %d, %Y'
 
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
