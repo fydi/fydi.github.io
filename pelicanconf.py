@@ -1,11 +1,13 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*- #
+import pathlib
 
 AUTHOR = 'Fydium'
 SITENAME = 'Fydium'
 SITEURL = ''
 
 PATH = 'content'
+THEME = pathlib.Path(__file__).parent.absolute() / 'themes/bootstrap'
 
 TIMEZONE = 'America/Los_Angeles'
 
@@ -28,7 +30,7 @@ LINKS = (('Pelican', 'https://getpelican.com/'),
 SOCIAL = (('You can add links in your config file', '#'),
           ('Another social link', '#'),)
 
-DEFAULT_PAGINATION = 10
+DEFAULT_PAGINATION = 3
 
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
