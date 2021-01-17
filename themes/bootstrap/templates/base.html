@@ -8,6 +8,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="generator" content="Pelican">
 
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto:wght@500&display=swap" rel="stylesheet"> 
+
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
   <link href="{{ SITEURL }}/theme/css/style.css" rel="stylesheet">
 
@@ -66,26 +69,6 @@
       </div>
     </div>
   </nav>
-  <!--
-  <nav id="menu">
-  <ul>
-  {% for title, link in MENUITEMS %}
-      <li><a href="{{ link }}">{{ title }}</a></li>
-  {% endfor %}
-  {% if DISPLAY_PAGES_ON_MENU %}
-    {% for p in pages %}
-      <li{% if p == page %} class="active"{% endif %}><a href="{{ SITEURL }}/{{ p.url }}">{{ p.title }}</a></li>
-    {% endfor %}
-  {% endif %}
-  {% if DISPLAY_CATEGORIES_ON_MENU %}
-    {% for cat, null in categories %}
-      <li{% if cat == category %} class="active"{% endif %}><a href="{{ SITEURL }}/{{ cat.url }}">{{ cat }}</a></li>
-    {% endfor %}
-  {% endif %}
-  </ul></nav>
-  -->
-
-
 
   <main class="flex-shrink-0">
     <div class="container">

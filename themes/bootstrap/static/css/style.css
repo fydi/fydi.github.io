@@ -1,17 +1,53 @@
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
 body {
+  /* Space for navbar */
   padding-top: 5rem;
 }
 
-.bd-placeholder-img {
-  font-size: 1.125rem;
-  text-anchor: middle;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  user-select: none;
+.post {
+  font-family: 'Open Sans', sans-serif;
 }
 
-@media (min-width: 768px) {
-  .bd-placeholder-img-lg {
-    font-size: 3.5rem;
-  }
+/*
+.post-category {
+  
+}
+*/
+
+.post-content {
+  color: #202020;
+}
+
+/*
+.post-date {
+
+}
+*/
+
+.post-metadata {
+  color: #6c757d;
+  margin-bottom: .25rem;
+}
+
+/*
+.post-tag {
+  
+}
+*/
+
+.post-title {
+  font-family: 'Roboto', sans-serif;
+  font-size: 2.5rem;
+  margin-bottom: .25rem;
+}
+
+.post-title a {
+  color: #494949;
 }
