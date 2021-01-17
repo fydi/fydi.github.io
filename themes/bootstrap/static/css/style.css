@@ -11,6 +11,10 @@ body {
   padding-top: 5rem;
 }
 
+.bg-psblue {
+  background-color: #013686;
+}
+
 .post {
   font-family: 'Open Sans', sans-serif;
 }
